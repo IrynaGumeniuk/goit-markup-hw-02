@@ -142,6 +142,10 @@ a {
 }
 
 /* footer */
+footer {
+  background-color: #2f303a;
+}
+
 .logo-footer {
   font-weight: bold;
   font-size: 26px;
@@ -149,7 +153,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.section .footer-list {
+.footer-list {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -157,13 +161,21 @@ a {
   font-style: normal;
 }
 
-.section .address {
+.address {
   color: var(--special-text-color);
 }
 
-/* проблемы с применением из-зa inherit */
-.section .dates {
+.footer-list .dates:hover,
+.footer-list .dates:focus {
+  color: var(--accent-color);
+}
+
+.transp {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list {
+  list-style: none;
 }
 
 /* Portfolio */
