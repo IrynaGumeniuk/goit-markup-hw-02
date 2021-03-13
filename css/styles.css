@@ -36,6 +36,9 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.auth-nav .link {
   color: var(--secondary-text-color);
 }
 
@@ -55,6 +58,11 @@ a {
 
 .logo-footer {
   color: var(--special-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* navegation */
@@ -70,7 +78,7 @@ a {
 /* hero */
 .hero .hero-title {
   color: var(--special-text-color);
-  cfont-weight: 900;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -99,6 +107,15 @@ a {
 .button:hover,
 .button:focus {
   color: var(--primary-text-color);
+}
+
+/* team */
+
+.section .team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* section */
@@ -198,6 +215,7 @@ footer {
 }
 
 .list .btn {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
